@@ -1,6 +1,6 @@
 {
   "name": "wepublish",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "An automatic publisher for waterfall effecting changes",
   "main": "index.sh",
   "scripts": {
