@@ -27,7 +27,7 @@ for package in $packages; do
 		# go to package and branch directory and publish that shit
 		cd $basePath$currentPackage"/"$currentBranch"-"$currentPackage && \
 		echo "currently in" $(pwd) && \
-		echo "incrementing patch version number" && \
+		echo "incrementing patch version number..." && \
 		# npm publish && \
 		branch=0
 	else 
