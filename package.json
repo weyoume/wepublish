@@ -1,17 +1,17 @@
 {
   "name": "wepublish",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An automatic publisher for waterfall effecting changes",
   "main": "index.sh",
   "scripts": {
-		"test" : "echo \"Error: no test specified\" && exit 1",
-		"run" : "./src/index.sh",
-		"push" : "git add . ; git commit -m 'ready' ; git push origin dev",
-		"pull" : "git pull origin dev"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "./src/index.sh",
+    "push": "git add . ; git commit -m 'ready' ; git push origin dev",
+    "pull": "git pull origin dev"
   },
   "repository": {
     "type": "git",
-		"url": "git+https://github.com/lopudesigns/wepublish.git"
+    "url": "git+https://github.com/lopudesigns/wepublish.git"
   },
   "author": "",
   "license": "ISC",
