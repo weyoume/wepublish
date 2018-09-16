@@ -1,0 +1,27 @@
+#!/bin/bash
+
+
+if [ -z $(command -v npm) ] ; then
+	echo "You need NPM and Node.js being"
+	exit 1
+else
+	if [ -z $(command -v werelease) ] ; then
+		echo "installing werelease"
+		npm i -g werelease
+	fi
+	if [ -z $(command -v npm-install-missing) ] ; then
+		echo "installing npm-install-missing"
+		npm i -g npm-install-missing
+	fi
+	if [ -z $(command -v npm-check-updates) ] ; then
+		echo "installing npm-check-updates"
+		npm i -g npm-check-updates
+	fi
+	
+fi
+
+if [ ! -z $(npm whoami) ] ; then
+	echo "npm logged in as "$(npm whoami)
+else
+	npm login
+fi

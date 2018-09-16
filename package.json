@@ -1,6 +1,6 @@
 {
   "name": "wepublish",
-  "version": "0.0.2",
+  "version": "0.0.211",
   "description": "An automatic publisher for waterfall effecting changes",
   "main": "index.sh",
   "scripts": {
@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/lopudesigns/wepublish/issues"
   },
-  "homepage": "https://github.com/lopudesigns/wepublish#readme"
+  "homepage": "https://github.com/lopudesigns/wepublish#readme",
+  "dependencies": {}
 }
